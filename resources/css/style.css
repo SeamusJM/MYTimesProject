@@ -84,5 +84,25 @@ nav a {
 #earth {
   background-image: url("../../resources/images/fall_season.png");
   padding: 55px;
-  align-items: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#camera {
+  background-image: url("../../resources/images/hipsterCamMan.png");
+  padding: 55px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#cats {
+  background-image: url("../../resources/images/cat_ceo.png");
+}
+
+#cookie {
+  background-image: url("../../resources/images/cookie.png");
 }
