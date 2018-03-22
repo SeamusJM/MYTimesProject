@@ -1,5 +1,4 @@
 /* flex container header */
-/* logo */
 .flex-container_row1p1 {
   display: flex;
   font-family: Verdana;
@@ -52,19 +51,18 @@ padding: 10px;
 
 /* main artical */
 .flex-container_column1 {
-  display: inline-flex;
+  display: flex;
   width: 630px;
   height: 600px;
   flex-direction: column;
   font-family: Georgia;
   font-size: 17px;
   align-items: center;
-  border: 1px solid black;
 }
 
 .flex-container_column1 > div {
-  width: auto;
-  height: 250px;
+  width: 630PX;
+  height: 300px;
   font-size: 17px;
   margin: auto;
 }
@@ -78,6 +76,28 @@ padding: 10px;
   font-size: 40px;
   color: white;
 }
+
+.flex-container_column2 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  justify-content: flex-start;
+
+}
+
+.flex-container_column2 > div {
+  width: 300PX;
+  height: 250px;
+  font-size: 17px;
+  margin: 10px 10px;
+}
+
+#orca {
+}
+
 
 #earth {
   background-image: url("../../resources/images/fall_season.png");
@@ -99,6 +119,24 @@ padding: 10px;
 
 #cats {
   background-image: url("../../resources/images/cat_ceo.png");
+}
+
+.flex-container_column3 {
+  display: inline-flex;
+  width: 240px;
+  height: 600px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.flex-container_column3 > div {
+  width: 240PX;
+  height: 250px;
+  font-size: 17px;
+  margin: auto;
 }
 
 #cookie {
