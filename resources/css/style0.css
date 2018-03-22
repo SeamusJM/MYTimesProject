@@ -80,7 +80,7 @@ padding: 10px;
 .flex-container_column2 {
   display: flex;
   width: 300px;
-  height: 300px;
+  height: 400px;
   flex-direction: column;
   font-family: Georgia;
   font-size: 17px;
@@ -90,7 +90,7 @@ padding: 10px;
 
 .flex-container_column2 > div {
   width: 300PX;
-  height: 250px;
+  height: 300px;
   font-size: 17px;
   margin: 10px 10px;
 }
