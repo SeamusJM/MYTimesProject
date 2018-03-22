@@ -1,0 +1,106 @@
+/* flex container header */
+/* logo */
+.flex-container_row1p1 {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.flex-container_row1p1 > div {
+padding: 10px;
+}
+
+.aqua {
+  text-align: center;
+  color: Mediumaquamarine;
+}
+
+.black {
+  color: black;
+}
+
+/* navigation */
+
+.flex-container_row1p1 .nav1  {
+  color: black;
+  margin-left: auto;
+}
+
+.flex-container_row1p1 .nav1 a {
+  color: black;
+}
+
+
+/* Columns */
+
+/* .column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+} */
+
+/* main artical */
+.flex-container_column1 {
+  display: inline-flex;
+  width: 630px;
+  height: 600px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.flex-container_column1 > div {
+  width: auto;
+  height: 250px;
+  font-size: 17px;
+  margin: auto;
+}
+
+.hline {
+  background-image: url("../../resources/images/dinnerWine.png");
+  height: 275px;
+  margin-top: 5px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#earth {
+  background-image: url("../../resources/images/fall_season.png");
+  padding: 55px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#camera {
+  background-image: url("../../resources/images/hipsterCamMan.png");
+  padding: 55px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#cats {
+  background-image: url("../../resources/images/cat_ceo.png");
+}
+
+#cookie {
+  background-image: url("../../resources/images/cookie.png");
+}
