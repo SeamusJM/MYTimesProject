@@ -1,89 +1,173 @@
-/* flex container */
-.container {
+
+/* Test css link */
+h1 {
+  color: blue;
+}
+
+h3 {
+  font-size: 30px;
+}
+/* Flexbox Row */
+
+.flex-container_main {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: auto;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-container_row1 {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  border: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
-
-
-/* flex item */
-.item {
-  height: 60px;
-  width: 80px;
-  margin-left: 30px;
-
+.flex-container_row1 > div {
+  /* margin: 10px; */
+  padding: 10px;
 }
 
-/* logo */
-
+/* header logo */
 .aqua {
+  text-align: center;
   color: Mediumaquamarine;
-
-  flex-grow: 1;
 }
 
 .black {
   color: black;
 }
 
-/* navigation */
-
-nav {
-  margin-right: 30px;
-}
-
-nav a {
-  color: black;
-}
-
 /* Columns */
 
-.column.large {
+.flex-container_column1 {
+  display: inline-flex;
   width: 630px;
-  border: 1px solid black;
+  height: 600px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 30px;
+  align-items: center;
 }
 
-.column.medium {
+.flex-container_column1 > div {
+  margin: 10px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.flex-container_column1sa {
+  display: inline-flex;
+  width: 315px;
+  height: 600px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 30px;
+  align-items: center;
+}
+
+.flex-container_column1sa > div {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.flex-container_column1sb {
+  display: inline-flex;
+  width: 315px;
+  height: 600px;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 30px;
+  align-items: center;
+}
+
+.flex-container_column1sb > div {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.flex-container_column2 {
+  display: inline-flex;
   width: 300px;
-  border: 1px solid black;
-}
+  height: 600px;
 
-.column.small {
-  width: 240px;
-  border: 1px solid black;
-}
-
-/* main artical */
-.main {
-  display: flex;
   flex-direction: column;
   font-family: Georgia;
   font-size: 17px;
-  align-items: center;
-  border: 1px solid black;
 }
+
+.flex-container_column2 > div {
+  width: 300PX;
+  height: 600px;
+  font-size: 17px;
+  margin: 5px;
+}
+
+.flex-container_column3 {
+  display: inline-flex;
+  width: 240px;
+  height: 700px;
+  flex-direction: column;
+}
+
+.flex-container_column3 > div {
+  width: 220px;
+  height: 200px;
+  text-align: center;
+}
+
+/* Class Info */
+
+.push {
+  margin-left: auto;
+}
+
 .hline {
   background-image: url("../../resources/images/dinnerWine.png");
-  padding: 55px;
+  height: 220px;
+  margin: auto;
+  padding-top: 80px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  text-align: center;
+
 }
 
-.main p {
-  margin: 10px;
+.grow1 {
+  flex-grow: 1;
 }
+
+.news {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+/* ID info */
 
 #earth {
   background-image: url("../../resources/images/fall_season.png");
-  padding: 55px;
+  width: 295px;
+  height: 285px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -99,10 +183,63 @@ nav a {
   color: white;
 }
 
+#fbi {
+
+}
+
 #cats {
   background-image: url("../../resources/images/cat_ceo.png");
+  padding: 55px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 #cookie {
-  background-image: url("../../resources/images/cookie.png");
+
+}
+/* Flexbox Items */
+.box0 {
+
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
+
+.box4 {
+
+}
+
+.box5 {
+
+}
+
+footer {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: MediumAquamarine;
+  width: 100%;
+  height: 300px;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+#footlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+
 }
